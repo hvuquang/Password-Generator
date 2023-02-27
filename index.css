@@ -9,6 +9,8 @@ body {
     height: 550px;
     margin: 0px auto;
     background-color: #1F2937;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
 }
 
 #main-title {
@@ -47,6 +49,7 @@ body {
     color: #10B981;
     background-color: white;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 #line-break {
@@ -69,10 +72,11 @@ body {
     width: 211px;
     height: 39px;
     color: #55F991;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 400;
+    text-shadow: 0 0 1px #55F991;
 }
